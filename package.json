@@ -1,5 +1,5 @@
 {
-  "name": "@ikoz/vite-plugin-preact-esp32",
+  "name": "@local/vite-plugin-preact-esp32",
   "version": "0.1.0",
   "git-repository": "https://github.com/isaackoz/vite-plugin-preact-esp32",
   "main": "dist/index.js",
@@ -31,16 +31,16 @@
     "dist"
   ],
   "peerDependencies": {
-    "vite": "4.x"
+    "vite": "6.x"
   },
   "devDependencies": {
     "@types/ejs": "^3.1.5",
     "@types/mime-types": "^2.1.4",
-    "@types/node": "^20.12.7",
+    "@types/node": "^22.10.2",
     "ejs": "^3.1.10",
-    "rollup": "^3.0.0",
+    "rollup": "^4.29.1",
     "mime-types": "^2.1.35",
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.5"
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
   }
 }
